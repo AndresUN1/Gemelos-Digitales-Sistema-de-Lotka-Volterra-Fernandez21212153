@@ -1,20 +1,19 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=DrPaulValle/Gemelos-Digitales-Leyes-de-crecimiento-exponencial-Valle05211261-)
 
-# Gemelos Digitales. Práctica 1: Leyes de crecimiento exponencial [Valle05211261]
+# Gemelos Digitales. Práctica 2: Sistema Presa-Depredador de Lotka-Volterra [Fernandez21212153]
 
 ## Autor
-Dr. Paul A. Valle
-
-Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, Tecnológico Nacional de México/IT Tijuana. Blvd. Alberto Limón Padilla s/n, Tijuana, C.P. 22454, B.C., México. Email: paul.valle@tectijuana.edu.mx
+Hector Andres Fernandez Esquivel
+Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, Tecnológico Nacional de México/IT Tijuana. Blvd. Alberto Limón Padilla s/n, Tijuana, C.P. 22454, B.C., México. Email: l21212153@tectijuana.edu.mx
 
 ## Resumen de la práctica
-En esta práctica se implementarán los métodos de Euler y Heun para la solución de ecuaciones diferenciales ordinarias de primer orden, evaluando su precisión en distintos escenarios. Posteriormente, se calculará la tasa de decrecimiento biológico a partir del tiempo de vida media, permitiendo estimar la dinámica de diversos procesos fisiológicos. Asimismo, se ajustará la ecuación de farmacocinética de primer orden utilizando algoritmos de regresión no lineal, con el objetivo de estimar las tasas de liberación de fármacos por nanohidrogeles. Finalmente, se diseñarán protocolos de quimioterapia basados en modelos matemáticos para ilustrar la concentración del imatinib en el compartimento sanguíneo, considerando su absorción tras la ingesta oral. Esta práctica integra herramientas computacionales y matemáticas clave para el modelizado de fenómenos biológicos, contribuyendo al desarrollo de estrategias terapéuticas personalizadas.
+En esta práctica se realiza un analisis a un sistema presa-depredador de Lotka-Volterra para estudiar su dinamica en series de tiempo y el plano de fase. Seleccionando como ejemplo el comportamiento observado entre los Viriones formados por el Virus de la Inmunodeficiencia Humana (VIH) y su encuentro con celulas T CD4+. Se realiza la solucion por metodo de Euler y Heun, asi como el desarrollo de un sistema para observar los resultados en diferentes solucionadores. 
 
 ## Objetivos específicos
-1. Aplicar los métodos de Euler y Heun para la solución de Ecuaciones Diferenciales Ordinarias de primer orden lineales e invariantes en el tiempo.
-2. Calcular las tasas de crecimiento, degradación a partir del tiempo de vida medio biológico.
-3. Ajusta la Ecuación de farmacocinética de primer orden mediante algoritmos de regresión no lineal para la estimación de tasas de liberación de fármaco por nanohidrogeles.
-4. Diseñar protocolos de quimioterapia basados en modelos para ilustrar la dinámica del imatinib en el compartimento sanguíneo cuando se ingiere una dosis de 300 mg/día de este fármaco.
+1. Aplicar los métodos de Euler y Heun para la solucion de sistemas de segundo orden.
+2. Desarrollar un sistema en Simulink que describe las ecuaciones Lotka-Volterra para observar resultados por medio de distintos solucionadores.
+3. Determinar los puntos de equilibrio y estabilidad local del sistema.
+4. Realizar ajuste a grupos de datos para graficar las soluciones y trayectorias de las ecuaciones.
 
 ## Docente
 Dr. Paul A. Valle
@@ -23,5 +22,3 @@ Posgrado en Ciencias de la Ingeniería [PCI] y Departamento de Ingeniería Eléc
 
 ## Lecturas
 [1] Paul. A. Valle, Syllabus de Biomatemáticas para la asignatura de Gemelos Digitales, Tecnológico Nacional de México/IT Tijuana, Tijuana, B.C., México, 2025. Permalink: https://www.dropbox.com/s/6yf9afxzih9y458/Biomatematicas.pdf
-
-[2] González‐Ayón, M. A., Sañudo‐Barajas, J. A., Picos‐Corrales, L. A., & Licea‐Claverie, A. (2015). PNVCL‐PEGMA nanohydrogels with tailored transition temperature for controlled delivery of 5‐fluorouracil. Journal of Polymer Science Part A: Polymer Chemistry, 53(22), 2662-2672. doi: https://doi.org/10.1002/pola.27766
